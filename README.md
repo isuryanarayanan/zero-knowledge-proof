@@ -10,7 +10,7 @@ To show the proof that Alice has knowledge of `X` to Bob, Alice has to implement
 ## The handshake process
 
 The handshake process decides the common parameters used in the discrete logarithmatic search, ie the Generator `g`, modulus `p`.
-Alice picks a random number X, (proof of identity). g^X mod p gives Y and this value of Y is shared with Bob.
+Alice picks a random number `X`, (proof of identity). `g^X mod p` gives `Y` and this value of `Y` is shared with Bob.
 
 > Assume, `g = 2` and `p = 7`
 
