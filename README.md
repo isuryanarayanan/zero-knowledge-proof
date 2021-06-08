@@ -1,4 +1,4 @@
-# zero-knowledge-proof
+# Zero Knowledge Proof
 
 ZKP implementation
 
@@ -25,3 +25,5 @@ The each round of the process start by,
   - case 1, if the request was `R` then Bob can calculate `g^R mod p` and verify that it matches `C`.
   - case 2, if the request was the computation of `(X+R) mod (p-1)`, Bob computes `g^((X+R) mod (p-1)) mod p` and check the result if it matches with the computation `C . Y mod p`.
 - Succesfully answering Bob's challenge will grant honor points in the process and the probability of Alice lying decreases and the vice versa in case of failing the challenge.
+
+The secret code is 99201
